@@ -1,7 +1,7 @@
 {
-  "name": "covidtracker",
+  "name": "webrtcvideobroadcast",
   "version": "1.0.0",
-  "description": "Covid Thermal tracker",
+  "description": "WebRTC example for a video broadcast",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,7 @@
     "WebRTC",
     "SocketIO"
   ],
-  "author": "Waragade Suraj",
+  "author": "Tanner Gabriel",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
