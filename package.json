@@ -1,12 +1,17 @@
 {
-  "name": "covidtrackerapp",
+  "name": "covidtracker",
   "version": "1.0.0",
-  "description": "Covid Tracker app",
+  "description": "Covid Thermal tracker",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Suraj Waragade",
+  "keywords": [
+    "WebRTC",
+    "SocketIO"
+  ],
+  "author": "Waragade Suraj",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
     "socket.io": "^2.3.0"
