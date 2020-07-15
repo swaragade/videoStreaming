@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1, maximum-scale=1">
+    <meta itemprop="description" content="Client-side LiveStream">
+    <meta itemprop="name" content="Client-side LiveStream">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta id="theme-color" name="theme-color" content="#ffffff">
+    <base target="_blank">
+    <title>Covid Tracker</title>
+    <link href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="recorder.css">
+</head>
+
+<body>
+
+<div id="container">
+
+    <h1><a title="WebRTC samples homepage">Covid Tracker</a></h1>
+	<h3>LiveStream and Recorder</h3>
+	<video id="gum" playsinline autoplay muted>LiveStream</video>
+	<video id="recorded" playsinline loop>Recorded PlayBack</video>
+    <div>
+        <button id="start">Start camera</button>
+        <button id="record" disabled>Start Recording</button>
+        <button id="play" disabled>Play</button>
+        <button id="download" disabled>Download</button>
+    </div>
+
+    <div align="center">
+        <span id="errorMsg"></span>
+    </div>
+
+</div>
+
+<!-- include adapter for srcObject shim -->
+<!--<script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>-->
+<script src="recorder.js" async></script>
+
+</body>
+</html>
